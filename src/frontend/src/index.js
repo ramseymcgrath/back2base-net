@@ -17,7 +17,7 @@ datadogRum.init({
     service: 'back2base-frontend',
     env: 'production',
     // Specify a version number to identify the deployed version of your application in Datadog
-    version: '1.0.1',
+    version: '1.0.0',
     sessionSampleRate: 100,
     sessionReplaySampleRate: 20,
     trackUserInteractions: true,
