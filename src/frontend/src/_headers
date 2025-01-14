@@ -1,0 +1,6 @@
+/*
+  Access-Control-Allow-Origin: 'https://back2base.net, https://www.back2base.net, https://login.back2base.net, https://api.back2base.net'
+  Access-Control-Allow-Credentials: 'true'
+  Access-Control-Allow-Methods: 'GET, POST, PUT, OPTIONS'
+  Access-Control-Allow-Headers: 'Origin, X-Requested-With, Content-Type, Accept, Authorization'
+

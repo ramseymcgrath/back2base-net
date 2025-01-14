@@ -1,0 +1,48 @@
+┌───────────────────┐       ┌───────────────────┐
+│      users        │       │      teams        │
+├───────────────────┤       ├───────────────────┤
+│ id (PK)           │       │ id (PK)           │
+│ username          │       │ name              │
+│ email             │       │ description       │
+│ outlook_user_id   │       │ created_at        │
+│ created_at        │       │ updated_at        │
+│ updated_at        │       └───────────────────┘
+└───────────────────┘               ^
+          ^                          │
+          │                          │ 1 : many (one team can have many memberships)
+ 1 : many │                          │
+┌────────────────────────────────────┴─────────────────────────────────┐
+│                       team_memberships                             │
+├──────────────────────────────────────────────────────────────────────┤
+│ id (PK)                                                             │
+│ team_id (FK → teams.id)                                            │
+│ user_id (FK → users.id)                                            │
+│ created_at                                                          │
+│ updated_at                                                          │
+└──────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────┐
+│   office_schedules   │
+├─────────────────────┤
+│ id (PK)             │
+│ user_id (FK → users.id)
+│ date                │
+│ is_in_office (bool) │
+│ notes (optional)    │
+│ created_at          │
+│ updated_at          │
+└─────────────────────┘
+
+┌─────────────────────┐                ┌─────────────────────┐
+│   outlook_events    │                │    jira_issues      │
+├─────────────────────┤                ├─────────────────────┤
+│ id (PK)             │                │ id (PK)             │
+│ user_id (FK → users.id)              │ issue_key           │
+│ outlook_event_id    │                │ summary             │
+│ subject             │                │ description         │
+│ start_time          │                │ status              │
+│ end_time            │                │ reporter_id (FK → users.id?)
+│ location            │                │ assignee_id (FK → users.id?)
+│ created_at          │                │ created_at          │
+│ updated_at          │                │ updated_at          │
+└─────────────────────┘                └─────────────────────┘
