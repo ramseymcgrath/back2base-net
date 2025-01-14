@@ -11,7 +11,7 @@
     "@sentry/node": "^8.37.1",
     "@sentry/profiling-node": "^8.37.1",
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
     "chakra": "^0.0.3",
