@@ -9,7 +9,7 @@ const Header = () => {
     <Flex as="header" align="center" justify="space-between" py={4}>
       <Link to="/">
         <Flex align="center">
-          <Image src="https://back2base.net/logo.png" alt="back2base Logo" boxSize="50px" />
+          <Image src="https://assets.back2base.net/back2base.png" alt="back2base Logo" boxSize="50px" />
           <Heading as="h1" size="lg" ml={2}>
             back2base
           </Heading>
