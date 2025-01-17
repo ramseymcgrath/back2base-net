@@ -9,8 +9,8 @@ import theme from './components/theme';
 import { datadogRum } from '@datadog/browser-rum';
 
 datadogRum.init({
-    applicationId: '266fdd83-e14f-4b94-8883-abc69bc08578',
-    clientToken: 'pubefad6ee510741e248df6038c5ed22302',
+    applicationId: '3948b662-dfb1-40e3-9ceb-b072f26d5593',
+    clientToken: 'pub547c33009e350c0606ae7ca137ceec6e',
     // `site` refers to the Datadog site parameter of your organization
     // see https://docs.datadoghq.com/getting_started/site/
     site: 'datadoghq.com',
