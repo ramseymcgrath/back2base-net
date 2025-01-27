@@ -8,7 +8,7 @@
     "@datadog/browser-rum": "^5.29.1",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@sentry/node": "^8.37.1",
+    "@sentry/node": "^8.51.0",
     "@sentry/profiling-node": "^8.37.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
