@@ -5,7 +5,7 @@
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
     "@chakra-ui/react": "^2.10.4",
-    "@datadog/browser-rum": "^5.29.1",
+    "@datadog/browser-rum": "^6.12.3",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@sentry/node": "^9.22.0",
